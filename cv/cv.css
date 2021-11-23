@@ -4,13 +4,16 @@
 .cv-li {
     background-color: #182d30;
     border-radius: 25px;
+	border-style: solid;
+	/*border-color: #b6bd53; */
+	border-color: greenyellow;
     padding: 30px;
     margin: 20px;
     text-align: center;
     /* asta face sa dispara punctele din fata la list item */
     list-style-type: none;
-    
-}  
+
+}
 
 .cv-a {
     font-weight: bold;
@@ -18,6 +21,7 @@
     font-family: monaco, 'Courier New', Courier, monospace;
     color: darkkhaki;
     text-decoration: none;
+	border-color: red;
 }
 
 .cv-logo {
@@ -29,7 +33,7 @@
     height: 50px;
     width: 50px;
     float: left;
-
+	border-color: red;
 }
 
 .cv-li:hover, .cv-a:hover {
