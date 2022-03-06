@@ -298,3 +298,4 @@ const solver = new Solver(color);
 const result = solver.solve();
 const filter_result = result.filter
 console.log(filter_result)
+
